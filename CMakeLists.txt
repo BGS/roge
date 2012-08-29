@@ -1,7 +1,7 @@
 #####################################################################
 # Root SDK level
 #####################################################################
-project(Roge Package_manager)
+project(Roge_packman)
 cmake_minimum_required(VERSION 2.6)
 set(CMAKE_ALLOW_LOOSE_LOOP_CONSTRUCTS TRUE)
 message(STATUS "Processing ${PROJECT_NAME}")
