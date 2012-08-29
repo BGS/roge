@@ -24,7 +24,7 @@ int main() {
         curl_easy_setopt(curl, CURLOPT_WRITEDATA, fp);
         res = curl_easy_perform(curl);
         curl_easy_cleanup(curl);
-              if (result == CURLE_OK)  
+              if (res == CURLE_OK)  
                 {  
                     cout << buffer << "BlackNoxis enters the game\n";  
                     exit(0);  
