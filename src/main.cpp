@@ -31,7 +31,7 @@ int main() {
                 }
                 else
                 {
-                    cout << "Ceva nu e in regula cu codul tau Victore\n" << "Eroarea ii aci: [" << result << "] - " << errorBuffer;
+                    cout << "Ceva nu e in regula cu codul tau Victore\n" << "Eroarea ii aci: [" << res << "] - " << errorBuffer;
                     exit(1):                
                 }
         fclose(fp);
