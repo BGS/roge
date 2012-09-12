@@ -1,5 +1,5 @@
 #define CURL_STATICLIB
-#include <stdio.h>
+#include <iostream>
 #include <curl/curl.h>
 #include <curl/easy.h>
 #include <string>
@@ -26,12 +26,12 @@ int main() {
         curl_easy_cleanup(curl);
               if (res == CURLE_OK)  
                 {  
-                    cout << buffer << "BlackNoxis enters the game\n";  
+                    std::cout << buffer << "BlackNoxis enters the game\n";  
                     exit(0);  
                 }
                 else
                 {
-                    cout << "Ceva nu e in regula cu codul tau Victore\n" << "Eroarea ii aci: [" << res << "] - " << errorBuffer;
+                    std::cout << "Ceva nu e in regula cu codul tau Victore\n" << "Eroarea ii aci: [" << res << "] - " << errorBuffer;
                     exit(1):                
                 }
         fclose(fp);
